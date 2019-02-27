@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
 
         if (btAdapter != null){
             if (btAdapter.isEnabled()){
-                mytext.setText("Bluetooth Пiдключено. Все вiдмiнно.");
+                mytext.setText("Bluetooth Пiдключено. Все Ok.");
             }else
             {
                 Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
